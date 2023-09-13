@@ -1,0 +1,32 @@
+section {
+    margin: 50px;
+}
+
+.img-container > :not(:first-child) {
+    display: none;
+}
+
+.img-container:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container > :not(:first-child) {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.text-and-buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
